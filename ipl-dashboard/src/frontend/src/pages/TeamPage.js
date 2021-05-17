@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { MatchDetailCard } from '../components/MatchDetailCard';
 import { MatchSmallCard } from '../components/MatchSmallCard';
 
-export const TeamApp = () => {
+export const TeamPage = () => {
 
   const [team, setTeam] = useState({ matches: [] });
   const { teamName } = useParams();
