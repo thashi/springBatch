@@ -51,7 +51,13 @@
 			<artifactId>spring-batch-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+	
+   <dependency>
+     <groupId>io.github.afzalriz304</groupId>
+     <artifactId>rizvi-ds-utils</artifactId>
+     <version>1.0.6</version>
+   </dependency>
+ </dependencies>
 
 	<build>
 		<plugins>
